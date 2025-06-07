@@ -8,14 +8,168 @@
     <title>HTML Lab Assessment</title>
     <link rel="stylesheet" href="styles.css">
     <!-- Include Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">    
 </head>
 
 <body>
 
     <!-- Your content goes here -->
-
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">My project</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto"> <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-center">
+                <h2>Our Vision and Mission</h2>
+                <P>We aim to deliver excellenceand innovation in everything we do</P>
+                <p>Our commitment extends beyond just product, we strive to create a positive impact on the community.</p>
+                <img src="free-nature-images.jpg" class="img-fluid" alt="Vision image">
+            </div>
+            <div class="col-md-6">
+                <h3>Key Principles</h3>
+                <ul class="list-unstyled">
+                    <li>Customer-Centric Approach</li>
+                    <li>Continuous improvement</li>
+                    <li>Ethical Business Practices</li>
+                    <li>Employee Empowerment</li>
+                    <li>Community Engagement</li>
+                </ul>
+                <img src="Landscape-Color.jpg"class="img-fluid" alt="Principles image">
+            </div>
+        </div>
+    </main>
+    <div class="container mt-5">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Your message here"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <div>
+        <section>
+            <h2>Sample Data Table</h2>
+            <table class="table table-striped table-bordered">
+                <caption>Employee Information</caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Occupation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hasina</td>
+                        <td>30</td>
+                        <td>Software Engineer</td>
+                    </tr>
+                    <tr>
+                        <td>Rakoto</td>
+                        <td>45</td>
+                        <td>Project Manager</td>
+                    </tr>
+                    <tr>
+                        <td>Charles</td>
+                        <td>25</td>
+                        <td>Graphic Designer</td>
+                    </tr>
+                    <tr>
+                        <td>Diana</td>
+                        <td>38</td>
+                        <td>Marketing Specialist</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Our Products</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Product 1</h5>
+                            <p class="card-text">A fantastic new product with incredible features and a sleek design. Perfect for everyday use.</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Product 2</h5>
+                            <p class="card-text">Experience the next generation with this advanced solution. High performance guaranteed.</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Product 3</h5>
+                            <p class="card-text">Simplify your life with this innovative gadget. Designed for efficiency and user-friendliness.</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        </div> <footer class="text-center text-lg-start">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">About Us</h5>
+                    <p>
+                        This is a sample website demonstrating various Bootstrap components as part of a web development exercise.
+                        We are committed to learning and building responsive web interfaces.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Useful Links</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="https://getbootstrap.com/" class="text-dark" target="_blank">Bootstrap Official Site</a>
+                        </li>
+                        <li>
+                            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" class="text-dark" target="_blank">MDN HTML Docs</a>
+                        </li>
+                        <li>
+                            <a href="https://www.w3schools.com/" class="text-dark" target="_blank">W3Schools</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center p-3">
+                &copy;2025 Web Dev Tasks. html Assessment.
+            </div>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
     <!-- Include Bootstrap JS and dependencies -->
